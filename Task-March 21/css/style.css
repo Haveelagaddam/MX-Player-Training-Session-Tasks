@@ -1,0 +1,20 @@
+body{
+    margin: 50px;
+    background-image: url(bank.webp);
+    
+}
+
+
+
+.buttonholder{
+    margin: 20px;
+}
+
+#errorMessage{
+    display: none;
+}
+
+.result {
+    text-align: center; 
+    margin-top: 50px;
+}
