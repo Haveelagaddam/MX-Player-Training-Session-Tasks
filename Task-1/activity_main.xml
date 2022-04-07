@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="Food"
+        android:textColor="@color/black"
+        android:layout_marginLeft="170dp"
+        android:textSize="20dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/a1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/noodles" />
+
+    <TextView
+        android:layout_marginLeft="60dp"
+        android:layout_below="@id/a1"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="Noodles"
+        android:textSize="20dp"
+        android:textColor="@color/purple_700"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/a2"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="210dp"
+        android:background="@drawable/noodles"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_marginLeft="250dp"
+        android:layout_below="@id/a2"
+        android:text="Maggie"
+        android:textColor="@color/purple_700"
+        android:textSize="20dp"
+        android:layout_height="30dp"/>
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/noodles" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@id/img3"
+        android:text="Yippie"
+        android:textColor="@color/purple_700"
+        android:textSize="20dp"
+        android:layout_height="30dp"/>
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/noodles" />
+    <TextView
+        android:layout_marginLeft="250dp"
+        android:layout_below="@id/img4"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="Pasta"
+        android:textSize="20dp"
+        android:id="@+id/w3"
+        android:textColor="@color/purple_700"
+        />
+
+
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/w3"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/img5"
+        android:background="@drawable/noodles"
+        />
+
+    <TextView
+        android:layout_marginLeft="170dp"
+        android:layout_below="@id/img5"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="Biryani"
+        android:textSize="20dp"
+        android:id="@+id/txt"
+        android:textColor="@color/purple_700"
+        />
+</RelativeLayout>
