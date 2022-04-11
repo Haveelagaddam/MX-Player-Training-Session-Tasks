@@ -1,4 +1,4 @@
-package com.vighnuorg.mxplayer_h;
+package com.haveela.mxplayer_h;
 
 import androidx.appcompat.app.AppCompatActivity;
 
